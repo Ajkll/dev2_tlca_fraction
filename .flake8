@@ -1,0 +1,4 @@
+[flake8]
+include = main.py, Fraction.py
+exclude = venv, .pytest_cache, __pycache__, .git, .coverage, tests
+max-line-length = 300
