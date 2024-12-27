@@ -42,7 +42,7 @@ def main():
     except NullDenominatorValueException as e:
         print(f"exemple ici on intercept cette exception - {e}")
 
-    # d'autres exemple d'utilisation de la class Fraction
+    # d'autres (de mes exemple)s d'utilisation de la class Fraction
     f1 = Fraction(3, 4)
     f2 = Fraction(5, 4)
     f3 = Fraction(2, -6)  
@@ -70,8 +70,8 @@ def main():
 
     print(float(f1))
 
-    print(f1.is_zero(      ))
-    print(f1.is_integer(   ))
+    print(f1.is_zero())
+    print(f1.is_integer())
     print(f1.is_proper())
     print(f1.is_unit())
 
