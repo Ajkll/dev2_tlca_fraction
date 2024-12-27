@@ -356,4 +356,4 @@ class TestUnitaireFraction:
         cela attrait aux tests unitaire de check_fraction_or_int selon moi , donc un ajout interresant serais simplement des test d'integration pour verifier cela !
         
     """
-    #note : black à mis en page bizarement certaines lignes de code dans ce fichier mais apparement ca respect mieux la pep8 comme ca ..
+    #note : l'outils black à mis en page bizarement certaines lignes de code dans ce fichier mais apparement ca respect mieux la norme pep8 comme ca ..
