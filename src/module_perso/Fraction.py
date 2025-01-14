@@ -44,6 +44,11 @@ class Fraction:
         self._num = num // gcd
         self._den = den // gcd
 
+    """
+    Ajouts possible de setter si on souhaite changer en cour de route (ce qui n'est pas voulut ici selon moi) de plus cela ajoute le fait qu'il faut respecter de maniere coherente les pre du constructeur sur ces aspect ici aussi
+    @denominator.setter
+    def denominator(self, value):
+    """
     @property
     def numerator(self) -> int:
         """
